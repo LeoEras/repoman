@@ -1,0 +1,339 @@
+2017-07-06 15:47:20.563	I	9365	4		Start	{"applicationName":"ManicTime","applicationVersion":"1.0.0.0","applicationLocation":"/usr/lib/manictime/ManicTime.exe","commandLineArguments":[],"operatingSystemVersion":"4.8.0.36","platform":"X64","installedDotNetVersions":[{"version":"Mono:5.0.1.1","servicePack":0}]}
+2017-07-06 15:47:21.299	I	9365	4		ServiceStarting	{"serviceName":"MONO_BUG_WORKAROUND_SERVICE_CLOCK_REALTIME"}
+2017-07-06 15:47:21.310	I	9365	4		ServiceStarted	{"serviceName":"MONO_BUG_WORKAROUND_SERVICE_CLOCK_REALTIME","result":"Continue"}
+2017-07-06 15:47:21.404	I	9365	4		ServiceStarting	{"serviceName":"CheckLicenseService"}
+2017-07-06 15:47:21.413	I	9365	4		ServiceStarted	{"serviceName":"CheckLicenseService","result":"Continue"}
+2017-07-06 15:47:21.426	I	9365	4		ServiceStarting	{"serviceName":"PluginService"}
+2017-07-06 15:47:21.611	I	9365	4		Text	{"text":"Plugin assembly dependency loaded: websocket-sharp-with-proxy-support, Version=1.0.2.28248, Culture=neutral, PublicKeyToken=5660b08a1845a91e, /usr/lib/manictime/Plugins/Packages/ManicTime.DocumentTracker.Socket/Lib/websocket-sharp-with-proxy-support.dll"}
+2017-07-06 15:47:21.614	I	9365	4		PluginAssemblyLoaded	{"assemblyFullName":"Plugins.Socket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","assemblyLocation":"/usr/lib/manictime/Plugins/Packages/ManicTime.DocumentTracker.Socket/Lib/Plugins.Socket.dll"}
+2017-07-06 15:47:21.615	I	9365	4		PluginAssemblyLoaded	{"assemblyFullName":"Shared.Storage.SQLite.Mac, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","assemblyLocation":"/usr/lib/manictime/Plugins/Packages/ManicTime.Storage.SQLite.Mac/Lib/Shared.Storage.SQLite.Mac.dll"}
+2017-07-06 15:47:22.028	I	9365	4		PluginRegistered	{"pluginType":"Plugins.Socket.PluginRegistrator"}
+2017-07-06 15:47:22.028	I	9365	4		ServiceStarted	{"serviceName":"PluginService","result":"Continue"}
+2017-07-06 15:47:22.029	I	9365	4		ServiceStarting	{"serviceName":"StorageConfigurationService"}
+2017-07-06 15:47:22.260	I	9365	4		ServiceStarted	{"serviceName":"StorageConfigurationService","result":"Continue"}
+2017-07-06 15:47:22.388	I	9365	4		ServiceStarting	{"serviceName":"DatabaseInitializationService"}
+2017-07-06 15:47:22.399	I	9365	4		Text	{"text":"Connecting to database '/home/andamios-pruebas/.config/manictime/ManicTimeCore.db'..."}
+2017-07-06 15:47:22.400	I	9365	4		Text	{"text":"Database does not exist. Creating..."}
+2017-07-06 15:47:22.402	I	9365	4		Text	{"text":"Database file '/home/andamios-pruebas/.config/manictime/ManicTimeCore.db' created."}
+2017-07-06 15:47:22.402	I	9365	4		Text	{"text":" created."}
+2017-07-06 15:47:22.404	I	9365	4		Text	{"text":"Locking database 'Sequence'..."}
+2017-07-06 15:47:22.496	I	9365	4		Text	{"text":"Database 'Sequence': Required version: 1.0.0.0; Actual version: ; Last use: "}
+2017-07-06 15:47:22.534	I	9365	4		Text	{"text":"Registry initialized for database 'Sequence'."}
+2017-07-06 15:47:22.568	I	9365	4		Text	{"text":"Database 'Sequence' locked."}
+2017-07-06 15:47:22.568	I	9365	4		Text	{"text":" locked."}
+2017-07-06 15:47:22.574	I	9365	4		Text	{"text":"Upgrading database to version 1.0.0.0..."}
+2017-07-06 15:47:22.583	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.612	I	9365	4		Text	{"text":"Locking database 'Document'..."}
+2017-07-06 15:47:22.623	I	9365	4		Text	{"text":"Database 'Document': Required version: 1.0.3.0; Actual version: ; Last use: "}
+2017-07-06 15:47:22.635	I	9365	4		Text	{"text":"Database 'Document' locked."}
+2017-07-06 15:47:22.635	I	9365	4		Text	{"text":" locked."}
+2017-07-06 15:47:22.637	I	9365	4		Text	{"text":"Upgrading database to version 1.0.0.0..."}
+2017-07-06 15:47:22.638	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.639	I	9365	4		Text	{"text":"Upgrading database to version 1.0.1.0..."}
+2017-07-06 15:47:22.644	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.646	I	9365	4		Text	{"text":"Upgrading database to version 1.0.2.0..."}
+2017-07-06 15:47:22.647	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.647	I	9365	4		Text	{"text":"Upgrading database to version 1.0.3.0..."}
+2017-07-06 15:47:22.649	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.665	I	9365	4		Text	{"text":"Locking database 'Timeline'..."}
+2017-07-06 15:47:22.668	I	9365	4		Text	{"text":"Database 'Timeline': Required version: 1.0.0.0; Actual version: ; Last use: "}
+2017-07-06 15:47:22.683	I	9365	4		Text	{"text":"Database 'Timeline' locked."}
+2017-07-06 15:47:22.684	I	9365	4		Text	{"text":" locked."}
+2017-07-06 15:47:22.685	I	9365	4		Text	{"text":"Upgrading database to version 1.0.0.0..."}
+2017-07-06 15:47:22.686	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.691	I	9365	4		Text	{"text":"Connecting to database '/home/andamios-pruebas/.config/manictime/ManicTimeReports.db'..."}
+2017-07-06 15:47:22.691	I	9365	4		Text	{"text":"Database does not exist. Creating..."}
+2017-07-06 15:47:22.691	I	9365	4		Text	{"text":"Database file '/home/andamios-pruebas/.config/manictime/ManicTimeReports.db' created."}
+2017-07-06 15:47:22.691	I	9365	4		Text	{"text":" created."}
+2017-07-06 15:47:22.691	I	9365	4		Text	{"text":"Locking database 'Sequence'..."}
+2017-07-06 15:47:22.693	I	9365	4		Text	{"text":"Database 'Sequence': Required version: 1.0.0.0; Actual version: ; Last use: "}
+2017-07-06 15:47:22.702	I	9365	4		Text	{"text":"Registry initialized for database 'Sequence'."}
+2017-07-06 15:47:22.709	I	9365	4		Text	{"text":"Database 'Sequence' locked."}
+2017-07-06 15:47:22.709	I	9365	4		Text	{"text":" locked."}
+2017-07-06 15:47:22.710	I	9365	4		Text	{"text":"Upgrading database to version 1.0.0.0..."}
+2017-07-06 15:47:22.712	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.718	I	9365	4		Text	{"text":"Locking database 'Document'..."}
+2017-07-06 15:47:22.722	I	9365	4		Text	{"text":"Database 'Document': Required version: 1.0.3.0; Actual version: ; Last use: "}
+2017-07-06 15:47:22.733	I	9365	4		Text	{"text":"Database 'Document' locked."}
+2017-07-06 15:47:22.733	I	9365	4		Text	{"text":" locked."}
+2017-07-06 15:47:22.735	I	9365	4		Text	{"text":"Upgrading database to version 1.0.0.0..."}
+2017-07-06 15:47:22.737	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.737	I	9365	4		Text	{"text":"Upgrading database to version 1.0.1.0..."}
+2017-07-06 15:47:22.738	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.738	I	9365	4		Text	{"text":"Upgrading database to version 1.0.2.0..."}
+2017-07-06 15:47:22.738	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.738	I	9365	4		Text	{"text":"Upgrading database to version 1.0.3.0..."}
+2017-07-06 15:47:22.739	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.746	I	9365	4		Text	{"text":"Locking database 'ActivityReport'..."}
+2017-07-06 15:47:22.748	I	9365	4		Text	{"text":"Database 'ActivityReport': Required version: 2.2.0.0; Actual version: ; Last use: "}
+2017-07-06 15:47:22.764	I	9365	4		Text	{"text":"Database 'ActivityReport' locked."}
+2017-07-06 15:47:22.764	I	9365	4		Text	{"text":" locked."}
+2017-07-06 15:47:22.766	I	9365	4		Text	{"text":"Upgrading database to version 1.0.0.0..."}
+2017-07-06 15:47:22.770	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.770	I	9365	4		Text	{"text":"Upgrading database to version 1.0.1.0..."}
+2017-07-06 15:47:22.770	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.771	I	9365	4		Text	{"text":"Upgrading database to version 2.0.0.0..."}
+2017-07-06 15:47:22.785	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.786	I	9365	4		Text	{"text":"Upgrading database to version 2.1.0.0..."}
+2017-07-06 15:47:22.795	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.796	I	9365	4		Text	{"text":"Upgrading database to version 2.2.0.0..."}
+2017-07-06 15:47:22.798	I	9365	4		Text	{"text":" complete."}
+2017-07-06 15:47:22.821	I	9365	4		ServiceStarted	{"serviceName":"DatabaseInitializationService","result":"Continue"}
+2017-07-06 15:47:22.852	I	9365	4		ServiceStarting	{"serviceName":"CategoryCacheRefreshService"}
+2017-07-06 15:47:22.914	I	9365	4		ServiceStarted	{"serviceName":"CategoryCacheRefreshService","result":"Continue"}
+2017-07-06 15:47:22.922	I	9365	4		ServiceStarting	{"serviceName":"TeamCacheRefreshService"}
+2017-07-06 15:47:22.940	I	9365	4		ServiceStarted	{"serviceName":"TeamCacheRefreshService","result":"Continue"}
+2017-07-06 15:47:22.984	I	9365	4		ServiceStarting	{"serviceName":"TimelineCacheRefreshService"}
+2017-07-06 15:47:23.012	I	9365	4		ServiceStarted	{"serviceName":"TimelineCacheRefreshService","result":"Continue"}
+2017-07-06 15:47:23.015	I	9365	4		ServiceStarting	{"serviceName":"TimelineEnvironmentCacheRefreshService"}
+2017-07-06 15:47:23.035	I	9365	4		ServiceStarted	{"serviceName":"TimelineEnvironmentCacheRefreshService","result":"Continue"}
+2017-07-06 15:47:23.043	I	9365	4		ServiceStarting	{"serviceName":"UserCacheService"}
+2017-07-06 15:47:23.063	I	9365	4		ServiceStarted	{"serviceName":"UserCacheService","result":"Continue"}
+2017-07-06 15:47:23.066	I	9365	4		ServiceStarting	{"serviceName":"TimelineEnvironmentUpdaterService"}
+2017-07-06 15:47:23.070	I	9365	4		ServiceStarted	{"serviceName":"TimelineEnvironmentUpdaterService","result":"Continue"}
+2017-07-06 15:47:23.071	I	9365	4		ServiceStarting	{"serviceName":"ChangeLogCacheGarbageCollectorService"}
+2017-07-06 15:47:23.071	I	9365	4		ServiceStarted	{"serviceName":"ChangeLogCacheGarbageCollectorService","result":"Continue"}
+2017-07-06 15:47:23.072	I	9365	4		ServiceStarting	{"serviceName":"ChangeLogIndexGarbageCollectorService"}
+2017-07-06 15:47:23.072	I	9365	4		ServiceStarted	{"serviceName":"ChangeLogIndexGarbageCollectorService","result":"Continue"}
+2017-07-06 15:47:23.073	I	9365	4		ServiceStarting	{"serviceName":"SqlChangeLogIndexGarbageCollectorService"}
+2017-07-06 15:47:23.074	I	9365	4		ServiceStarted	{"serviceName":"SqlChangeLogIndexGarbageCollectorService","result":"Continue"}
+2017-07-06 15:47:23.075	I	9365	4		ServiceStarting	{"serviceName":"SqlTimelineGarbageCollectorService"}
+2017-07-06 15:47:23.075	I	9365	4		ServiceStarted	{"serviceName":"SqlTimelineGarbageCollectorService","result":"Continue"}
+2017-07-06 15:47:23.076	I	9365	4		ServiceStarting	{"serviceName":"TimelineGarbageCollectorService"}
+2017-07-06 15:47:23.076	I	9365	4		ServiceStarted	{"serviceName":"TimelineGarbageCollectorService","result":"Continue"}
+2017-07-06 15:47:23.083	I	9365	4		ServiceStarting	{"serviceName":"ReportUpdateService"}
+2017-07-06 15:47:23.124	I	9365	4		Text	{"text":"Report 'Activity' started."}
+2017-07-06 15:47:23.140	I	9365	4		ServiceStarted	{"serviceName":"ReportUpdateService","result":"Continue"}
+2017-07-06 15:47:23.152	I	9365	4		ServiceStarting	{"serviceName":"ReportingDiagnosticsWatcherService"}
+2017-07-06 15:47:23.156	I	9365	4		ServiceStarted	{"serviceName":"ReportingDiagnosticsWatcherService","result":"Continue"}
+2017-07-06 15:47:23.171	I	9365	4		ServiceStarting	{"serviceName":"LastSynchronizationService"}
+2017-07-06 15:47:23.175	I	9365	4		ServiceStarted	{"serviceName":"LastSynchronizationService","result":"Continue"}
+2017-07-06 15:47:23.456	I	9365	4		Text	{"text":"Inactivity tracking service started: ManicTime.Client.Tracker.EventTracking.Publishers.ComputerUsageTracking.InactivityTracking.TimeLimitedInactivity"}
+2017-07-06 15:47:23.467	I	9365	4		ComputerUsageTypeChanged	{"computerUsageType":5,"reason":"Init","isSessionLocked":false}
+2017-07-06 15:47:23.468	I	9365	4		Text	{"text":"Computer usage type changed: ManicTime/Active, 00:00:00"}
+2017-07-06 15:47:23.518	I	9365	4		ServiceStarting	{"serviceName":"SystemEventTrackingService"}
+2017-07-06 15:47:23.568	I	9365	4		Text	{"text":"Application tracker started."}
+2017-07-06 15:47:23.643	I	9365	4		Text	{"text":"Local store enabled."}
+2017-07-06 15:47:23.643	I	9365	4		ServiceStarted	{"serviceName":"SystemEventTrackingService","result":"Continue"}
+2017-07-06 15:47:23.646	I	9365	4		ServiceStarting	{"serviceName":"AutoStartupService"}
+2017-07-06 15:47:23.649	I	9365	4		Text	{"text":"Updated /home/andamios-pruebas/.config/autostart/manictimeaac57d1fbd4b2235.desktop startup file, autoStart(True)"}
+2017-07-06 15:47:23.652	I	9365	4		ServiceStarted	{"serviceName":"AutoStartupService","result":"Continue"}
+2017-07-06 15:47:23.655	I	9365	4		ServiceStarting	{"serviceName":"VersionCheckService"}
+2017-07-06 15:47:23.659	I	9365	4		ServiceStarted	{"serviceName":"VersionCheckService","result":"Continue"}
+2017-07-06 15:47:23.660	I	9365	4		ServiceStarting	{"serviceName":"LinuxTimeZoneUpdaterService"}
+2017-07-06 15:47:23.663	I	9365	4		ServiceStarted	{"serviceName":"LinuxTimeZoneUpdaterService","result":"Continue"}
+2017-07-06 15:47:23.664	I	9365	4		ServiceStarting	{"serviceName":"ServerSynchronizationStartupService"}
+2017-07-06 15:47:23.687	I	9365	4		ServiceStarted	{"serviceName":"ServerSynchronizationStartupService","result":"Continue"}
+2017-07-06 15:47:23.689	I	9365	4		ServiceStarting	{"serviceName":"TimelineMasterAndReplicaChangeService"}
+2017-07-06 15:47:23.690	I	9365	4		ServiceStarted	{"serviceName":"TimelineMasterAndReplicaChangeService","result":"Continue"}
+2017-07-06 15:48:23.645	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:48:24.840	I	9365	11		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:49:24.840	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:49:24.991	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:49:31.895	E	9365	11	b858d0f8	Exception	 {"errorType":"ManicTime.Client.Storage.ServerCommunication.ManicTimeAuthenticationException","message":"Invalid username or password.","stackTrace":"  at ManicTime.Client.Linux.ServerSettingsWindow+<TestOauthCredentialsAsync>c__async4.MoveNext () [0x000dc] in <9cac131d5d3b41de9b51613d6a36ece3>:0 \n--- End of stack trace from previous location where exception was thrown ---\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <a07d6bf484a54da2861691df910339b1>:0 \n  at ManicTime.Client.Linux.ServerSettingsWindow+<TestNtlmCredentialsAsync>c__async3.MoveNext () [0x0016a] in <9cac131d5d3b41de9b51613d6a36ece3>:0 \n--- End of stack trace from previous location where exception was thrown ---\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <a07d6bf484a54da2861691df910339b1>:0 \n  at ManicTime.Client.Linux.ServerSettingsWindow+<GetServerCredentialsAsync>c__async2.MoveNext () [0x001eb] in <9cac131d5d3b41de9b51613d6a36ece3>:0 \n--- End of stack trace from previous location where exception was thrown ---\n  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <a07d6bf484a54da2861691df910339b1>:0 \n  at ManicTime.Client.Linux.ServerSettingsWindow+<TestConnectionAsync>c__async0.MoveNext () [0x00135] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 15:50:14.673	E	9365	1	148f866a	Exception	 {"errorType":"GLib.GException","message":"El icono «utilities-terminal» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00051] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 15:50:14.674	E	9365	1	475f4895	Exception	 {"errorType":"GLib.GException","message":"El icono «utilities-terminal» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00080] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 15:50:14.674	I	9365	11		Text	{"text":"[Icon] Fallback to icon from window andamios-pruebas@andamiospruebas-virtual-machine: ~/Descargas/ManicTime"}
+2017-07-06 15:50:24.993	I	9365	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:50:25.076	I	9365	11		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:51:25.076	I	9365	11		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:51:25.133	I	9365	11		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:52:25.133	I	9365	11		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:52:25.187	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:53:25.187	I	9365	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:53:25.254	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:54:25.254	I	9365	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:54:25.308	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:55:25.308	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:55:25.368	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:56:25.368	I	9365	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:56:25.457	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:57:25.457	I	9365	11		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:57:25.758	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:58:25.758	I	9365	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:58:25.826	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 15:59:25.826	I	9365	11		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 15:59:25.904	I	9365	11		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:00:25.905	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:00:25.964	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:01:25.964	I	9365	11		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:01:26.040	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:02:26.041	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:02:26.160	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:03:26.160	I	9365	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:03:26.306	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:03:32.085	E	9365	1	733f3dcb	Exception	 {"errorType":"GLib.GException","message":"El icono «accessories-text-editor» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00051] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:03:32.086	E	9365	1	6de203a3	Exception	 {"errorType":"GLib.GException","message":"El icono «accessories-text-editor» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00080] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:03:32.087	I	9365	10		Text	{"text":"[Icon] Fallback to icon from window ManicTimeTracker_2017-07-06.log (~/.config/manictime/Logs) - Pluma"}
+2017-07-06 16:03:54.810	E	9365	1	efa65b3e	Exception	 {"errorType":"System.Reflection.TargetInvocationException","message":"Exception has been thrown by the target of an invocation.","stackTrace":"  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Delegate.DynamicInvokeImpl (System.Object[] args) [0x000e7] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.MulticastDelegate.DynamicInvokeImpl (System.Object[] args) [0x00008] in <a07d6bf484a54da2861691df910339b1>:0 \n  at System.Delegate.DynamicInvoke (System.Object[] args) [0x00000] in <a07d6bf484a54da2861691df910339b1>:0 \n  at GLib.Signal.ClosureInvokedCB (System.Object o, GLib.ClosureInvokedArgs args) [0x0003d] in <d1be7832ecaf40d49bc1d80f41896dfa>:0 \n  at GLib.SignalClosure.Invoke (GLib.ClosureInvokedArgs args) [0x0000c] in <d1be7832ecaf40d49bc1d80f41896dfa>:0 \n  at GLib.SignalClosure.MarshalCallback (System.IntPtr raw_closure, System.IntPtr return_val, System.UInt32 n_param_vals, System.IntPtr param_values, System.IntPtr invocation_hint, System.IntPtr marshal_data) [0x00144] in <d1be7832ecaf40d49bc1d80f41896dfa>:0 ","data":{},"innerExceptionInfo":{"errorType":"ManicTime.Client.Linux.ApplicationTracking.X11Exception","message":"\nError:\tBadValue (integer parameter out of range for operation)\nRequest:\t94 (X_CreateGlyphCursor)\nResource ID:\t0x9A\nSerial:\t16525\n","stackTrace":"  at (wrapper managed-to-native) Gdk.Display:gdk_display_sync (intptr)\n  at Gdk.Display.Sync () [0x00006] in <7bb9eb4b6c2044a3845162acc5d72781>:0 \n  at ManicTime.Client.Linux.AboutWindow.websiteHyperlinkWrapper_LeaveNotifyEvent (System.Object o, Gtk.LeaveNotifyEventArgs args) [0x00024] in <9cac131d5d3b41de9b51613d6a36ece3>:0 \n  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&)\n  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <a07d6bf484a54da2861691df910339b1>:0 ","data":{}}}
+2017-07-06 16:04:26.306	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:04:26.455	I	9365	10		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:05:14.117	I	9365	10		Text	{"text":"[Icon] Fallback to icon from window Marco"}
+2017-07-06 16:05:14.118	I	9365	10		Text	{"text":"[Icon] Window does not provide any icons Marco"}
+2017-07-06 16:05:26.457	I	9365	10		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:05:26.641	I	9365	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:06:18.782	I	9527	4		Start	{"applicationName":"ManicTime","applicationVersion":"1.0.0.0","applicationLocation":"/usr/lib/manictime/ManicTime.exe","commandLineArguments":[],"operatingSystemVersion":"4.8.0.36","platform":"X64","installedDotNetVersions":[{"version":"Mono:5.0.1.1","servicePack":0}]}
+2017-07-06 16:06:19.589	I	9527	4		ServiceStarting	{"serviceName":"MONO_BUG_WORKAROUND_SERVICE_CLOCK_REALTIME"}
+2017-07-06 16:06:19.598	I	9527	4		ServiceStarted	{"serviceName":"MONO_BUG_WORKAROUND_SERVICE_CLOCK_REALTIME","result":"Continue"}
+2017-07-06 16:06:19.694	I	9527	4		ServiceStarting	{"serviceName":"CheckLicenseService"}
+2017-07-06 16:06:19.727	I	9527	4		ServiceStarted	{"serviceName":"CheckLicenseService","result":"Continue"}
+2017-07-06 16:06:19.736	I	9527	4		ServiceStarting	{"serviceName":"PluginService"}
+2017-07-06 16:06:19.787	I	9527	4		Text	{"text":"Plugin assembly dependency loaded: websocket-sharp-with-proxy-support, Version=1.0.2.28248, Culture=neutral, PublicKeyToken=5660b08a1845a91e, /usr/lib/manictime/Plugins/Packages/ManicTime.DocumentTracker.Socket/Lib/websocket-sharp-with-proxy-support.dll"}
+2017-07-06 16:06:19.789	I	9527	4		PluginAssemblyLoaded	{"assemblyFullName":"Plugins.Socket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","assemblyLocation":"/usr/lib/manictime/Plugins/Packages/ManicTime.DocumentTracker.Socket/Lib/Plugins.Socket.dll"}
+2017-07-06 16:06:19.790	I	9527	4		PluginAssemblyLoaded	{"assemblyFullName":"Shared.Storage.SQLite.Mac, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","assemblyLocation":"/usr/lib/manictime/Plugins/Packages/ManicTime.Storage.SQLite.Mac/Lib/Shared.Storage.SQLite.Mac.dll"}
+2017-07-06 16:06:20.013	I	9527	4		PluginRegistered	{"pluginType":"Plugins.Socket.PluginRegistrator"}
+2017-07-06 16:06:20.014	I	9527	4		ServiceStarted	{"serviceName":"PluginService","result":"Continue"}
+2017-07-06 16:06:20.015	I	9527	4		ServiceStarting	{"serviceName":"StorageConfigurationService"}
+2017-07-06 16:06:20.267	I	9527	4		ServiceStarted	{"serviceName":"StorageConfigurationService","result":"Continue"}
+2017-07-06 16:06:20.419	I	9527	4		ServiceStarting	{"serviceName":"DatabaseInitializationService"}
+2017-07-06 16:06:20.433	I	9527	4		Text	{"text":"Connecting to database '/home/andamios-pruebas/.config/manictime/ManicTimeCore.db'..."}
+2017-07-06 16:06:20.515	I	9527	4		Text	{"text":"Locking database 'Sequence'..."}
+2017-07-06 16:06:20.570	I	9527	4		Text	{"text":"Database 'Sequence': Required version: 1.0.0.0; Actual version: 1.0.0.0; Last use: Shared.Storage.DatabaseVersioning.DatabaseLastUseDetails"}
+2017-07-06 16:06:20.592	I	9527	4		Text	{"text":"Database lock for database 'Sequence' found, but process is not running: mono-sgen (9365)"}
+2017-07-06 16:06:20.623	I	9527	4		Text	{"text":"Database 'Sequence' locked."}
+2017-07-06 16:06:20.623	I	9527	4		Text	{"text":" locked."}
+2017-07-06 16:06:20.625	I	9527	4		Text	{"text":"Current version: 1.0.0.0; Supported version: 1.0.0.0; Last use version: 1.0.0.0"}
+2017-07-06 16:06:20.644	I	9527	4		Text	{"text":"Locking database 'Document'..."}
+2017-07-06 16:06:20.647	I	9527	4		Text	{"text":"Database 'Document': Required version: 1.0.3.0; Actual version: 1.0.3.0; Last use: Shared.Storage.DatabaseVersioning.DatabaseLastUseDetails"}
+2017-07-06 16:06:20.654	I	9527	4		Text	{"text":"Database lock for database 'Document' found, but process is not running: mono-sgen (9365)"}
+2017-07-06 16:06:20.660	I	9527	4		Text	{"text":"Database 'Document' locked."}
+2017-07-06 16:06:20.661	I	9527	4		Text	{"text":" locked."}
+2017-07-06 16:06:20.661	I	9527	4		Text	{"text":"Current version: 1.0.3.0; Supported version: 1.0.3.0; Last use version: 1.0.3.0"}
+2017-07-06 16:06:20.670	I	9527	4		Text	{"text":"Locking database 'Timeline'..."}
+2017-07-06 16:06:20.673	I	9527	4		Text	{"text":"Database 'Timeline': Required version: 1.0.0.0; Actual version: 1.0.0.0; Last use: Shared.Storage.DatabaseVersioning.DatabaseLastUseDetails"}
+2017-07-06 16:06:20.677	I	9527	4		Text	{"text":"Database lock for database 'Timeline' found, but process is not running: mono-sgen (9365)"}
+2017-07-06 16:06:20.688	I	9527	4		Text	{"text":"Database 'Timeline' locked."}
+2017-07-06 16:06:20.689	I	9527	4		Text	{"text":" locked."}
+2017-07-06 16:06:20.689	I	9527	4		Text	{"text":"Current version: 1.0.0.0; Supported version: 1.0.0.0; Last use version: 1.0.0.0"}
+2017-07-06 16:06:20.696	I	9527	4		Text	{"text":"Connecting to database '/home/andamios-pruebas/.config/manictime/ManicTimeReports.db'..."}
+2017-07-06 16:06:20.699	I	9527	4		Text	{"text":"Locking database 'Sequence'..."}
+2017-07-06 16:06:20.701	I	9527	4		Text	{"text":"Database 'Sequence': Required version: 1.0.0.0; Actual version: 1.0.0.0; Last use: Shared.Storage.DatabaseVersioning.DatabaseLastUseDetails"}
+2017-07-06 16:06:20.714	I	9527	4		Text	{"text":"Database lock for database 'Sequence' found, but process is not running: mono-sgen (9365)"}
+2017-07-06 16:06:20.723	I	9527	4		Text	{"text":"Database 'Sequence' locked."}
+2017-07-06 16:06:20.723	I	9527	4		Text	{"text":" locked."}
+2017-07-06 16:06:20.723	I	9527	4		Text	{"text":"Current version: 1.0.0.0; Supported version: 1.0.0.0; Last use version: 1.0.0.0"}
+2017-07-06 16:06:20.733	I	9527	4		Text	{"text":"Locking database 'Document'..."}
+2017-07-06 16:06:20.736	I	9527	4		Text	{"text":"Database 'Document': Required version: 1.0.3.0; Actual version: 1.0.3.0; Last use: Shared.Storage.DatabaseVersioning.DatabaseLastUseDetails"}
+2017-07-06 16:06:20.740	I	9527	4		Text	{"text":"Database lock for database 'Document' found, but process is not running: mono-sgen (9365)"}
+2017-07-06 16:06:20.745	I	9527	4		Text	{"text":"Database 'Document' locked."}
+2017-07-06 16:06:20.745	I	9527	4		Text	{"text":" locked."}
+2017-07-06 16:06:20.745	I	9527	4		Text	{"text":"Current version: 1.0.3.0; Supported version: 1.0.3.0; Last use version: 1.0.3.0"}
+2017-07-06 16:06:20.756	I	9527	4		Text	{"text":"Locking database 'ActivityReport'..."}
+2017-07-06 16:06:20.759	I	9527	4		Text	{"text":"Database 'ActivityReport': Required version: 2.2.0.0; Actual version: 2.2.0.0; Last use: Shared.Storage.DatabaseVersioning.DatabaseLastUseDetails"}
+2017-07-06 16:06:20.765	I	9527	4		Text	{"text":"Database lock for database 'ActivityReport' found, but process is not running: mono-sgen (9365)"}
+2017-07-06 16:06:20.770	I	9527	4		Text	{"text":"Database 'ActivityReport' locked."}
+2017-07-06 16:06:20.770	I	9527	4		Text	{"text":" locked."}
+2017-07-06 16:06:20.770	I	9527	4		Text	{"text":"Current version: 2.2.0.0; Supported version: 2.2.0.0; Last use version: 2.2.0.0"}
+2017-07-06 16:06:20.779	I	9527	4		ServiceStarted	{"serviceName":"DatabaseInitializationService","result":"Continue"}
+2017-07-06 16:06:20.805	I	9527	4		ServiceStarting	{"serviceName":"CategoryCacheRefreshService"}
+2017-07-06 16:06:20.868	I	9527	4		ServiceStarted	{"serviceName":"CategoryCacheRefreshService","result":"Continue"}
+2017-07-06 16:06:20.876	I	9527	4		ServiceStarting	{"serviceName":"TeamCacheRefreshService"}
+2017-07-06 16:06:20.897	I	9527	4		ServiceStarted	{"serviceName":"TeamCacheRefreshService","result":"Continue"}
+2017-07-06 16:06:20.958	I	9527	4		ServiceStarting	{"serviceName":"TimelineCacheRefreshService"}
+2017-07-06 16:06:20.992	I	9527	4		ServiceStarted	{"serviceName":"TimelineCacheRefreshService","result":"Continue"}
+2017-07-06 16:06:20.996	I	9527	4		ServiceStarting	{"serviceName":"TimelineEnvironmentCacheRefreshService"}
+2017-07-06 16:06:21.067	I	9527	4		ServiceStarted	{"serviceName":"TimelineEnvironmentCacheRefreshService","result":"Continue"}
+2017-07-06 16:06:21.088	I	9527	4		ServiceStarting	{"serviceName":"UserCacheService"}
+2017-07-06 16:06:21.123	I	9527	4		ServiceStarted	{"serviceName":"UserCacheService","result":"Continue"}
+2017-07-06 16:06:21.127	I	9527	4		ServiceStarting	{"serviceName":"TimelineEnvironmentUpdaterService"}
+2017-07-06 16:06:21.131	I	9527	4		ServiceStarted	{"serviceName":"TimelineEnvironmentUpdaterService","result":"Continue"}
+2017-07-06 16:06:21.133	I	9527	4		ServiceStarting	{"serviceName":"ChangeLogCacheGarbageCollectorService"}
+2017-07-06 16:06:21.134	I	9527	4		ServiceStarted	{"serviceName":"ChangeLogCacheGarbageCollectorService","result":"Continue"}
+2017-07-06 16:06:21.134	I	9527	4		ServiceStarting	{"serviceName":"ChangeLogIndexGarbageCollectorService"}
+2017-07-06 16:06:21.135	I	9527	4		ServiceStarted	{"serviceName":"ChangeLogIndexGarbageCollectorService","result":"Continue"}
+2017-07-06 16:06:21.136	I	9527	4		ServiceStarting	{"serviceName":"SqlChangeLogIndexGarbageCollectorService"}
+2017-07-06 16:06:21.136	I	9527	4		ServiceStarted	{"serviceName":"SqlChangeLogIndexGarbageCollectorService","result":"Continue"}
+2017-07-06 16:06:21.138	I	9527	4		ServiceStarting	{"serviceName":"SqlTimelineGarbageCollectorService"}
+2017-07-06 16:06:21.139	I	9527	4		ServiceStarted	{"serviceName":"SqlTimelineGarbageCollectorService","result":"Continue"}
+2017-07-06 16:06:21.140	I	9527	4		ServiceStarting	{"serviceName":"TimelineGarbageCollectorService"}
+2017-07-06 16:06:21.140	I	9527	4		ServiceStarted	{"serviceName":"TimelineGarbageCollectorService","result":"Continue"}
+2017-07-06 16:06:21.151	I	9527	4		ServiceStarting	{"serviceName":"ReportUpdateService"}
+2017-07-06 16:06:21.210	I	9527	4		Text	{"text":"Report 'Activity' started."}
+2017-07-06 16:06:21.279	I	9527	4		ServiceStarted	{"serviceName":"ReportUpdateService","result":"Continue"}
+2017-07-06 16:06:21.283	I	9527	4		ServiceStarting	{"serviceName":"ReportingDiagnosticsWatcherService"}
+2017-07-06 16:06:21.288	I	9527	4		ServiceStarted	{"serviceName":"ReportingDiagnosticsWatcherService","result":"Continue"}
+2017-07-06 16:06:21.334	I	9527	4		ServiceStarting	{"serviceName":"LastSynchronizationService"}
+2017-07-06 16:06:21.341	I	9527	4		ServiceStarted	{"serviceName":"LastSynchronizationService","result":"Continue"}
+2017-07-06 16:06:21.714	I	9527	4		Text	{"text":"Inactivity tracking service started: ManicTime.Client.Tracker.EventTracking.Publishers.ComputerUsageTracking.InactivityTracking.TimeLimitedInactivity"}
+2017-07-06 16:06:21.738	I	9527	4		ComputerUsageTypeChanged	{"computerUsageType":5,"reason":"Init","isSessionLocked":false}
+2017-07-06 16:06:21.739	I	9527	4		Text	{"text":"Computer usage type changed: ManicTime/Active, 00:00:00"}
+2017-07-06 16:06:21.779	I	9527	4		ServiceStarting	{"serviceName":"SystemEventTrackingService"}
+2017-07-06 16:06:21.869	I	9527	4		Text	{"text":"Application tracker started."}
+2017-07-06 16:06:22.059	I	9527	4		Text	{"text":"Local store enabled."}
+2017-07-06 16:06:22.059	I	9527	4		ServiceStarted	{"serviceName":"SystemEventTrackingService","result":"Continue"}
+2017-07-06 16:06:22.062	I	9527	4		ServiceStarting	{"serviceName":"AutoStartupService"}
+2017-07-06 16:06:22.067	I	9527	4		ServiceStarted	{"serviceName":"AutoStartupService","result":"Continue"}
+2017-07-06 16:06:22.070	I	9527	4		ServiceStarting	{"serviceName":"VersionCheckService"}
+2017-07-06 16:06:22.071	I	9527	4		ServiceStarted	{"serviceName":"VersionCheckService","result":"Continue"}
+2017-07-06 16:06:22.072	I	9527	4		ServiceStarting	{"serviceName":"LinuxTimeZoneUpdaterService"}
+2017-07-06 16:06:22.072	I	9527	4		ServiceStarted	{"serviceName":"LinuxTimeZoneUpdaterService","result":"Continue"}
+2017-07-06 16:06:22.073	I	9527	4		ServiceStarting	{"serviceName":"ServerSynchronizationStartupService"}
+2017-07-06 16:06:22.117	I	9527	4		ServiceStarted	{"serviceName":"ServerSynchronizationStartupService","result":"Continue"}
+2017-07-06 16:06:22.123	I	9527	4		ServiceStarting	{"serviceName":"TimelineMasterAndReplicaChangeService"}
+2017-07-06 16:06:22.125	I	9527	4		ServiceStarted	{"serviceName":"TimelineMasterAndReplicaChangeService","result":"Continue"}
+2017-07-06 16:06:50.102	E	9527	1	733f3dcb	Exception	 {"errorType":"GLib.GException","message":"El icono «accessories-text-editor» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00051] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:06:50.105	E	9527	1	6de203a3	Exception	 {"errorType":"GLib.GException","message":"El icono «accessories-text-editor» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00080] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:06:50.107	I	9527	13		Text	{"text":"[Icon] Fallback to icon from window ManicTimeTracker_2017-07-06.Errors.log (~/.config/manictime/Logs) - Pluma"}
+2017-07-06 16:07:22.062	I	9527	16		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:07:22.745	I	9527	19		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:07:51.067	E	9527	1	148f866a	Exception	 {"errorType":"GLib.GException","message":"El icono «utilities-terminal» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00051] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:07:51.069	E	9527	1	475f4895	Exception	 {"errorType":"GLib.GException","message":"El icono «utilities-terminal» no está presente en el tema Ambiant-MATE","stackTrace":"  at Gtk.IconTheme.LoadIcon (System.String icon_name, System.Int32 size, Gtk.IconLookupFlags flags) [0x00047] in <eb04dae3945e4bdea20291d9d72f33ad>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetIconApplicationHandler+<TryGetIconSetFromThemedIcon>c__AnonStorey1.<>m__0 (System.Object , System.EventArgs ) [0x00080] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:07:51.070	I	9527	17		Text	{"text":"[Icon] Fallback to icon from window andamios-pruebas@andamiospruebas-virtual-machine: ~/.config/manictime"}
+2017-07-06 16:08:22.746	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:08:22.911	I	9527	17		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:09:22.911	I	9527	16		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:09:23.120	I	9527	16		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:09:28.255	E	9527	8	19ec927c	Exception	 {"errorType":"ManicTime.Client.Linux.ApplicationTracking.X11Exception","message":"\nError:\tBadWindow (invalid Window parameter)\nRequest:\t20 (X_GetProperty)\nResource ID:\t0x3600008\nSerial:\t8\n","stackTrace":"  at (wrapper managed-to-native) ManicTime.Client.Linux.ApplicationTracking.LibX11:XGetClassHint (intptr,intptr,ManicTime.Client.Linux.ApplicationTracking.Structs/XClassHint&)\n  at ManicTime.Client.Linux.ApplicationTracking.GetProcessApplicationHandler.GetResourceClass (System.IntPtr display, System.IntPtr mainHandle) [0x00000] in <9cac131d5d3b41de9b51613d6a36ece3>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.GetProcessApplicationHandler.Handle (ManicTime.Client.Tracker.EventTracking.Publishers.ApplicationTracking.ActiveApplication application, System.IntPtr display) [0x00020] in <9cac131d5d3b41de9b51613d6a36ece3>:0 \n  at ManicTime.Client.Linux.ApplicationTracking.LinuxApplicationMonitor.GetActiveApplication () [0x00074] in <9cac131d5d3b41de9b51613d6a36ece3>:0 ","data":{}}
+2017-07-06 16:10:23.121	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:10:23.214	I	9527	13		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:11:23.214	I	9527	12		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:11:23.305	I	9527	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:12:23.305	I	9527	14		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:12:23.446	I	9527	16		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:12:37.472	E	9527	16	1d57ffaf	Exception	 {"errorType":"Newtonsoft.Json.JsonReaderException","message":"Additional text encountered after finished reading JSON content: :. Path '', line 2, position 10.","stackTrace":"  at Newtonsoft.Json.JsonTextReader.Read () [0x000c8] in <607e95f78559498690f968784b884761>:0 \n  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000d9] in <607e95f78559498690f968784b884761>:0 \n  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <607e95f78559498690f968784b884761>:0 \n  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <607e95f78559498690f968784b884761>:0 \n  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <607e95f78559498690f968784b884761>:0 \n  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in <607e95f78559498690f968784b884761>:0 \n  at Finkit.ManicTime.Shared.DynamicSettingsSerializer.Deserialize[T] (System.String value) [0x00000] in <bb693afc79b14578b521bb141285676e>:0 \n  at Finkit.ManicTime.Shared.DynamicSettings..ctor (System.String jsonContent) [0x00006] in <bb693afc79b14578b521bb141285676e>:0 \n  at Finkit.ManicTime.Shared.GlobalAppSettingsUpdater.UpdateUserSettings (System.String content) [0x00000] in <bb693afc79b14578b521bb141285676e>:0 \n  at Finkit.ManicTime.Shared.GlobalAppSettingsFileWatcher.OnUserSettingsFileChanged () [0x00018] in <bb693afc79b14578b521bb141285676e>:0 ","data":{}}
+2017-07-06 16:13:23.446	I	9527	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:13:23.513	I	9527	18		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:14:23.514	I	9527	17		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:14:23.586	I	9527	13		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:15:23.586	I	9527	18		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:15:23.649	I	9527	19		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:16:23.649	I	9527	8		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:16:23.739	I	9527	8		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:17:23.740	I	9527	16		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:17:23.804	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:18:23.805	I	9527	12		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:18:23.890	I	9527	16		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:19:23.890	I	9527	16		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:19:23.958	I	9527	19		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:20:23.958	I	9527	17		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:20:24.025	I	9527	19		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:21:24.025	I	9527	18		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:21:24.098	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:22:24.098	I	9527	14		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:22:24.165	I	9527	17		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:23:24.165	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:23:24.385	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:24:24.385	I	9527	8		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:24:24.468	I	9527	8		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:25:24.469	I	9527	19		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:25:24.537	I	9527	8		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:26:24.538	I	9527	12		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:26:24.605	I	9527	18		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:27:24.605	I	9527	19		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:27:24.666	I	9527	14		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:28:24.667	I	9527	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:28:24.777	I	9527	18		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:29:24.778	I	9527	16		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:29:24.875	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:30:24.876	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:30:25.046	I	9527	16		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:31:15.804	E	9527	1	733f3dcb	Exception	
+2017-07-06 16:31:15.805	E	9527	1	6de203a3	Exception	
+2017-07-06 16:31:15.805	I	9527	16		Text	{"text":"[Icon] Fallback to icon from window ManicTimeReports.db (~/.config/manictime) - gedit"}
+2017-07-06 16:31:15.814	I	9527	16		Text	{"text":"[Icon] Window does not provide any icons ManicTimeReports.db (~/.config/manictime) - gedit"}
+2017-07-06 16:31:25.046	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:31:25.957	I	9527	19		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:32:25.957	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:32:26.082	I	9527	13		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:33:26.082	I	9527	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:33:26.171	I	9527	19		Text	{"text":"FlushTimer end (isStopped: False)"}

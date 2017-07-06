@@ -1,0 +1,26 @@
+
+  "server": {
+    "url": "http://192.168.65.21:8080",
+    "username": "leonardo.eras@cti.espol.edu.ec",
+    "accessToken": "ydmkYF4qwQvjCNfSCPbL0iRSWUczQ+dv5slnHlnPNLoDSP/zAY3ZEw==",
+    "syncInterval": 60,
+    "timelines": [
+      {
+        "schemaName": "ManicTime/ComputerUsage",
+        "home": "device"
+      },
+      {
+        "schemaName": "ManicTime/Applications",
+        "home": "device"
+      },
+      {
+        "schemaName": "ManicTime/Documents",
+        "home": "device"
+      },
+      {
+        "schemaName": "ManicTime/Tags",
+        "home": "server"
+      }
+    ]
+  }
+}
