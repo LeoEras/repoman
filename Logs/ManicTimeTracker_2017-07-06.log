@@ -369,3 +369,13 @@
 2017-07-06 16:48:27.382	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
 2017-07-06 16:49:27.382	I	9527	4		Text	{"text":"FlushTimer start (isStopped: False)"}
 2017-07-06 16:49:27.454	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:50:27.454	I	9527	4		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:50:27.528	I	9527	16		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:51:27.529	I	9527	13		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:51:27.615	I	9527	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:52:27.615	I	9527	18		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:52:27.685	I	9527	13		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:53:27.686	I	9527	18		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:53:27.760	I	9527	4		Text	{"text":"FlushTimer end (isStopped: False)"}
+2017-07-06 16:54:27.760	I	9527	19		Text	{"text":"FlushTimer start (isStopped: False)"}
+2017-07-06 16:54:27.878	I	9527	12		Text	{"text":"FlushTimer end (isStopped: False)"}
